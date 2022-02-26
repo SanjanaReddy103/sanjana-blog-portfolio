@@ -19,10 +19,10 @@ export default function Portfolio() {
           <h1 className='text-4xl leading-5 text-white font-kaushan -rotate-6 m-0 p-0 mb-8 person-name font-light'>
             <span className='relative py-1 px-4'>{`${PORTFOLIO.PERSONAL.NAME.FNAME} ${PORTFOLIO.PERSONAL.NAME.LNAME}`}</span>
           </h1>
-          <h3 className='text-white text-sm m-0 p-0 font-mono text-center leading-5 rotate-0'>
+          <h3 className='text-white text-sm m-0 p-0 mt-2 font-mono text-center leading-5 rotate-0'>
             <span>{PORTFOLIO.PERSONAL.TITLE}</span>
           </h3>
-          <p className="mt-4"></p>
+          <p className="mt-6"></p>
           <ul className="m-0 p-0 list-none rotate-0">
             {
               PORTFOLIO.SHOW_SM_LINKS ? PORTFOLIO.SM_LINKS.map(sm => <li className='m-0 p-0 list-none inline-block'>

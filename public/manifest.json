@@ -1,6 +1,6 @@
 {
-  "name": "Sanish Portfolio",
-  "short_name": "Sanish Portfolio",
+  "name": "Sanjana Portfolio",
+  "short_name": "Sanjana Portfolio",
   "icons": [
     {
       "src": "/icon-144.png",
@@ -21,7 +21,7 @@
   "background_color": "#72B340",
   "dir": "ltr",
   "lang": "en",
-  "description": "Sanish | Blog | Portfolio | Software Engineer and Entrepreneur",
+  "description": "Sanjana | Blog | Portfolio | Finance Grad & Software Engineer",
   "display": "fullscreen",
   "start_url": "/",
   "theme_color": "#72B340"
