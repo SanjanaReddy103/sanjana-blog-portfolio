@@ -1,0 +1,28 @@
+{
+  "name": "Sanish Portfolio",
+  "short_name": "Sanish Portfolio",
+  "icons": [
+    {
+      "src": "/icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "background_color": "#72B340",
+  "dir": "ltr",
+  "lang": "en",
+  "description": "Sanish | Blog | Portfolio | Software Engineer and Entrepreneur",
+  "display": "fullscreen",
+  "start_url": "/",
+  "theme_color": "#72B340"
+}
