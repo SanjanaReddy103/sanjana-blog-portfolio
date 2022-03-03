@@ -38,9 +38,9 @@
 }
 .balloon .string {
   position: absolute;
-  background-color: #990;
+  background-color: #d6bc03;
   border-radius: 50%/100px 100px 0 0;
-  width: 2px;
+  width: 4px;
   height: calc(var(--balloonDimension) * .6);
   transform-origin: top center;
   transform: rotateZ(-45deg);
