@@ -28,7 +28,8 @@ export default function Index({ allPosts, preview }) {
     CheckForRFB();
   }, []);
   const CheckForRFB = () => {
-    const {0: TDD, 1: TMM} = new Date().toLocaleDateString().split('/')
+    const TDD = new Date().getDate();
+    const TMM = new Date().getMonth() + 1;
     const {0: DD, 1: MM} = PORTFOLIO.PERSONAL.DOB.split('-');
     // alert(`TDD:${TDD}, TMM: ${TMM}, DD: ${DD}, MM:${MM}`);
     setShowRFB(parseInt(TDD) === parseInt(DD) && parseInt(TMM) === parseInt(MM));
