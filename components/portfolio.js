@@ -25,7 +25,7 @@ export default function Portfolio() {
           <p className="mt-6"></p>
           <ul className="m-0 p-0 list-none rotate-0">
             {
-              PORTFOLIO.SHOW_SM_LINKS ? PORTFOLIO.SM_LINKS.map(sm => <li className='m-0 p-0 list-none inline-block'>
+              PORTFOLIO.SHOW_SM_LINKS ? PORTFOLIO.SM_LINKS.map(sm => <li key={sm.LABEL} className='m-0 p-0 list-none inline-block'>
               <a
                 className="text-white inline-block px-3"
                 href={sm.URL}
